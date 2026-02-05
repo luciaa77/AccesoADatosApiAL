@@ -199,9 +199,7 @@ public static class PersonajesEndpoints
             return TypedResults.NoContent();
         });
 
-        // -------------------------
         // Avanzado 1: JSON -> tengan "MiedoA"
-        // -------------------------
         group.MapGet("/avanzado/con-miedo", async Task<Ok<List<object>>> (AppDbContext db) =>
         {
             var personajes = await db.Personajes
@@ -212,9 +210,7 @@ public static class PersonajesEndpoints
             return TypedResults.Ok(personajes.Select(ToApiDto).ToList());
         });
 
-        // -------------------------
         // Avanzado 2: resumen polimórfico (count + media nivel)
-        // -------------------------
         group.MapGet("/avanzado/resumen-por-tipo", async Task<Ok<object>> (AppDbContext db) =>
         {
             var resumen = new
