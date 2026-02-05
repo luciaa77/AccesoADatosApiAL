@@ -1,4 +1,4 @@
-﻿// Autor: (Tu nombre) - D&DSoft
+﻿// Autor: Lucia
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

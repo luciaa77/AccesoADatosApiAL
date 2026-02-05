@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\arquero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\arquero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\accesoadatosapial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:accesoadatosapial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|c:\\users\\lucia\\desktop\\accesoadatosapial\\accesoadatosapial\\models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4813FF-DACC-46C6-8227-B8E0C507E8BA}|AccesoADatosApiAL.csproj|solutionrelative:models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Clerigo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Clerigo.cs",
-              "RelativeDocumentMoniker": "Models\\Clerigo.cs",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Clerigo.cs",
-              "RelativeToolTip": "Models\\Clerigo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:07:37.206Z",
+              "WhenOpened": "2026-02-05T16:22:36.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Arquero.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Arquero.cs",
-              "RelativeDocumentMoniker": "Models\\Arquero.cs",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Arquero.cs",
-              "RelativeToolTip": "Models\\Arquero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:07:24.362Z",
+              "WhenOpened": "2026-02-05T16:16:32.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mago.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Mago.cs",
-              "RelativeDocumentMoniker": "Models\\Mago.cs",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Mago.cs",
-              "RelativeToolTip": "Models\\Mago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Personaje.cs",
+              "RelativeDocumentMoniker": "Models\\Personaje.cs",
+              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Personaje.cs",
+              "RelativeToolTip": "Models\\Personaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:07:02.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Guerrero.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Guerrero.cs",
-              "RelativeDocumentMoniker": "Models\\Guerrero.cs",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Guerrero.cs",
-              "RelativeToolTip": "Models\\Guerrero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:06:27.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "Models\\Class.cs",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\Models\\Class.cs",
-              "RelativeToolTip": "Models\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:04:15.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccesoADatosApiAL.csproj",
-              "DocumentMoniker": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
-              "RelativeDocumentMoniker": "AccesoADatosApiAL.csproj",
-              "ToolTip": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
-              "RelativeToolTip": "AccesoADatosApiAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-05T16:01:16.93Z",
+              "WhenOpened": "2026-02-05T16:47:37.037Z",
               "EditorCaption": ""
             }
           ]
