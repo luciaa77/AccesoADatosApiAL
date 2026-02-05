@@ -1,0 +1,9 @@
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.csproj.AssemblyReference.cache
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.AssemblyInfoInputs.cache
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.AssemblyInfo.cs
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.csproj.CoreCompileInputs.cache
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ANDRÉS\Desktop\AccesoADatosApiAL\AccesoADatosApiAL\obj\Debug\net9.0\AccesoADatosApiAL.sourcelink.json
