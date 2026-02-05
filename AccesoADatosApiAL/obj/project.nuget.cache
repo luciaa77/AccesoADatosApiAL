@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TGNIXGXLAQI=",
+  "dgSpecHash": "lP/8i9qIkGQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
+  "projectFilePath": "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.12\\microsoft.aspnetcore.openapi.9.0.12.nupkg.sha512",
-    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\ANDRÉS\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.12\\microsoft.aspnetcore.openapi.9.0.12.nupkg.sha512",
+    "C:\\Users\\ANDRÉS\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }
