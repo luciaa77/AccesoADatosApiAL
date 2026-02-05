@@ -1,0 +1,6 @@
+@AccesoADatosApiAL_HostAddress = http://localhost:5044
+
+GET {{AccesoADatosApiAL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
