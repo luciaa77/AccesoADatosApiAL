@@ -1,35 +1,27 @@
-﻿using AccesoADatosApiAL.Endpoints;
+using AccesoDatosApiAI.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-
-builder.Services.AddControllers();
-
-builder.Services.AddOpenApi();
-
+// DbContext (PostgreSQL + EF Core)
+var connectionString = builder.Configuration.GetConnectionString("GameDb");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString("DefaultConnection")
-    )
-);
+    options.UseNpgsql(connectionString));
 
 var app = builder.Build();
 
-
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger((Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>?)null);
+    app.UseSwaggerUI();
 }
-
-app.MapPersonajesEndpoints();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
+app.MapGet("/", () => "API DnDSoft OK");
 
 app.Run();

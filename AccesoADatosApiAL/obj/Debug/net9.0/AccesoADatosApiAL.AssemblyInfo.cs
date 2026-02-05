@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccesoADatosApiAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9082ccd6a5dd275ded30cfef5b1f9c78253194a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2c58730644c4c2f5d62eacac8a8da4e823cc2d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccesoADatosApiAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccesoADatosApiAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
