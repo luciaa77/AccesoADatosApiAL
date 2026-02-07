@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj": {}
+    "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj": {
+    "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
         "projectName": "AccesoADatosApiAL",
-        "projectPath": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
-        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\obj\\",
+        "projectPath": "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\AccesoADatosApiAL.csproj",
+        "packagesPath": "C:\\Users\\ANDRÉS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDRÉS\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANDRÉS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,32 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.23, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

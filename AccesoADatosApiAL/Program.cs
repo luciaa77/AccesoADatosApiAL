@@ -1,23 +1,34 @@
+﻿using AccesoADatosApiAL.Endpoints;
+using AccesoDatosApiAL.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// DbContext
+var connectionString = builder.Configuration.GetConnectionString("GameDb");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(connectionString));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "AccesoADatosApiAL v1");
+        c.RoutePrefix = "swagger"; // para que sea /swagger
+    });
 }
 
-app.UseHttpsRedirection();
 
-app.UseAuthorization();
+// Endpoints
+app.MapGet("/", () => "API DnDSoft OK");
 
-app.MapControllers();
+app.MapPersonajesEndpoints();
 
 app.Run();

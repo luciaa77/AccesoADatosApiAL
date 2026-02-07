@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapial.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:accesoadatosapial.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3697848D-3667-414D-A864-7937CED3A5AD}|AccesoADatosApiAL.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccesoADatosApiAL.http",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL.http",
+              "RelativeDocumentMoniker": "AccesoADatosApiAL.http",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApiAL.http",
+              "RelativeToolTip": "AccesoADatosApiAL.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-06T18:40:36.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Personaje.cs",
+              "RelativeDocumentMoniker": "Models\\Personaje.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Personaje.cs",
+              "RelativeToolTip": "Models\\Personaje.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:38:07.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mago.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Mago.cs",
+              "RelativeDocumentMoniker": "Models\\Mago.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Mago.cs",
+              "RelativeToolTip": "Models\\Mago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:38:03.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guerrero.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Guerrero.cs",
+              "RelativeDocumentMoniker": "Models\\Guerrero.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Guerrero.cs",
+              "RelativeToolTip": "Models\\Guerrero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:37:59.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clerigo.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Clerigo.cs",
+              "RelativeDocumentMoniker": "Models\\Clerigo.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\Models\\Clerigo.cs",
+              "RelativeToolTip": "Models\\Clerigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:37:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T18:34:19.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

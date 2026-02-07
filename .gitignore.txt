@@ -1,14 +1,20 @@
 # Visual Studio
 .vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
 bin/
 obj/
 
-# User-specific files
-*.user
-*.suo
+# Rider / IntelliJ
+.idea/
 
-# Databases / caches
-*.db
-*.db-shm
-*.db-wal
-*.vsidx
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
