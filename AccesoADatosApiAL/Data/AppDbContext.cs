@@ -1,8 +1,8 @@
 ﻿// Autor: (Tu nombre) - D&DSoft
-using AccesoDatosApiAI.Models;
+using AccesoDatosApiAL.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AccesoDatosApiAI.Data
+namespace AccesoDatosApiAL.Data
 {
     public class AppDbContext : DbContext
     {

@@ -4,13 +4,15 @@
 // Archivo: Endpoints/PersonajesEndpoints.cs
 // =======================================================
 
+
+using AccesoDatosApiAL.Data;
+using AccesoDatosApiAL.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 
-namespace AccesoADatosApiAL.Endpoints; // <- si tu proyecto tiene otro namespace, ajusta SOLO esta línea
+namespace AccesoADatosApiAL.Endpoints;
 
 public static class PersonajesEndpoints
 {
@@ -211,17 +213,33 @@ public static class PersonajesEndpoints
         });
 
         // Avanzado 2: resumen polimórfico (count + media nivel)
-        group.MapGet("/avanzado/resumen-por-tipo", async Task<Ok<object>> (AppDbContext db) =>
+        group.MapGet("/avanzado/resumen-por-tipo", async Task<IResult> (AppDbContext db) =>
         {
             var resumen = new
             {
-                guerreros = new { count = await db.Guerreros.CountAsync(), avgNivel = await db.Guerreros.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync() },
-                magos = new { count = await db.Magos.CountAsync(), avgNivel = await db.Magos.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync() },
-                arqueros = new { count = await db.Arqueros.CountAsync(), avgNivel = await db.Arqueros.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync() },
-                clerigos = new { count = await db.Clerigos.CountAsync(), avgNivel = await db.Clerigos.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync() },
+                guerreros = new
+                {
+                    count = await db.Guerreros.CountAsync(),
+                    avgNivel = await db.Guerreros.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync()
+                },
+                magos = new
+                {
+                    count = await db.Magos.CountAsync(),
+                    avgNivel = await db.Magos.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync()
+                },
+                arqueros = new
+                {
+                    count = await db.Arqueros.CountAsync(),
+                    avgNivel = await db.Arqueros.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync()
+                },
+                clerigos = new
+                {
+                    count = await db.Clerigos.CountAsync(),
+                    avgNivel = await db.Clerigos.Select(x => (double)x.Nivel).DefaultIfEmpty(0).AverageAsync()
+                },
             };
 
-            return TypedResults.Ok(resumen);
+            return Results.Ok(resumen);
         });
 
         return group;
@@ -240,11 +258,64 @@ public static class PersonajesEndpoints
     private static object ToApiDto(Personaje p) =>
         p switch
         {
-            Guerrero g => new { id = g.Id, tipo = "Guerrero", nombre = g.Nombre, nivel = g.Nivel, fechaCreacion = g.FechaCreacion, gremio = g.Gremio, rasgos = g.Rasgos, armaPrincipal = g.ArmaPrincipal, furia = g.Furia },
-            Mago m => new { id = m.Id, tipo = "Mago", nombre = m.Nombre, nivel = m.Nivel, fechaCreacion = m.FechaCreacion, gremio = m.Gremio, rasgos = m.Rasgos, mana = m.Mana, elementoPrincipal = m.ElementoPrincipal },
-            Arquero a => new { id = a.Id, tipo = "Arquero", nombre = a.Nombre, nivel = a.Nivel, fechaCreacion = a.FechaCreacion, gremio = a.Gremio, rasgos = a.Rasgos, precision = a.Precision, tieneMascota = a.TieneMascota },
-            Clerigo c => new { id = c.Id, tipo = "Clerigo", nombre = c.Nombre, nivel = c.Nivel, fechaCreacion = c.FechaCreacion, gremio = c.Gremio, rasgos = c.Rasgos, deidad = c.Deidad, puntosSanacion = c.PuntosSanacion },
-            _ => new { id = p.Id, tipo = "Personaje", nombre = p.Nombre, nivel = p.Nivel, fechaCreacion = p.FechaCreacion, gremio = p.Gremio, rasgos = p.Rasgos }
+            Guerrero g => new
+            {
+                id = g.Id,
+                tipo = "Guerrero",
+                nombre = g.Nombre,
+                nivel = g.Nivel,
+                fechaCreacion = g.FechaCreacion,
+                gremio = g.Gremio,
+                rasgos = g.Rasgos,
+                armaPrincipal = g.ArmaPrincipal,
+                furia = g.Furia
+            },
+            Mago m => new
+            {
+                id = m.Id,
+                tipo = "Mago",
+                nombre = m.Nombre,
+                nivel = m.Nivel,
+                fechaCreacion = m.FechaCreacion,
+                gremio = m.Gremio,
+                rasgos = m.Rasgos,
+                mana = m.Mana,
+                elementoPrincipal = m.ElementoPrincipal
+            },
+            Arquero a => new
+            {
+                id = a.Id,
+                tipo = "Arquero",
+                nombre = a.Nombre,
+                nivel = a.Nivel,
+                fechaCreacion = a.FechaCreacion,
+                gremio = a.Gremio,
+                rasgos = a.Rasgos,
+                precision = a.Precision,
+                tieneMascota = a.TieneMascota
+            },
+            Clerigo c => new
+            {
+                id = c.Id,
+                tipo = "Clerigo",
+                nombre = c.Nombre,
+                nivel = c.Nivel,
+                fechaCreacion = c.FechaCreacion,
+                gremio = c.Gremio,
+                rasgos = c.Rasgos,
+                deidad = c.Deidad,
+                puntosSanacion = c.PuntosSanacion
+            },
+            _ => new
+            {
+                id = p.Id,
+                tipo = "Personaje",
+                nombre = p.Nombre,
+                nivel = p.Nivel,
+                fechaCreacion = p.FechaCreacion,
+                gremio = p.Gremio,
+                rasgos = p.Rasgos
+            }
         };
 
     private static Dictionary<string, string[]>? Validate(object model)
@@ -266,13 +337,83 @@ public static class PersonajesEndpoints
     }
 
     // Request DTOs (solo API)
-    public sealed record CreateGuerreroRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, [Required] string? ArmaPrincipal, int Furia);
-    public sealed record CreateMagoRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, int Mana, [Required] string? ElementoPrincipal);
-    public sealed record CreateArqueroRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, double Precision, bool TieneMascota);
-    public sealed record CreateClerigoRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, [Required] string? Deidad, int PuntosSanacion);
+    public sealed record CreateGuerreroRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        [Required] string? ArmaPrincipal,
+        int Furia
+    );
 
-    public sealed record UpdateGuerreroRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, [Required] string? ArmaPrincipal, int Furia);
-    public sealed record UpdateMagoRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, int Mana, [Required] string? ElementoPrincipal);
-    public sealed record UpdateArqueroRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, double Precision, bool TieneMascota);
-    public sealed record UpdateClerigoRequest([Required, MaxLength(50)] string? Nombre, [Range(1, 100)] int Nivel, DateTime FechaCreacion, string? Gremio, JsonDocument? Rasgos, [Required] string? Deidad, int PuntosSanacion);
+    public sealed record CreateMagoRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        int Mana,
+        [Required] string? ElementoPrincipal
+    );
+
+    public sealed record CreateArqueroRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        double Precision,
+        bool TieneMascota
+    );
+
+    public sealed record CreateClerigoRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        [Required] string? Deidad,
+        int PuntosSanacion
+    );
+
+    public sealed record UpdateGuerreroRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        [Required] string? ArmaPrincipal,
+        int Furia
+    );
+
+    public sealed record UpdateMagoRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        int Mana,
+        [Required] string? ElementoPrincipal
+    );
+
+    public sealed record UpdateArqueroRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        double Precision,
+        bool TieneMascota
+    );
+
+    public sealed record UpdateClerigoRequest(
+        [Required, MaxLength(50)] string? Nombre,
+        [Range(1, 100)] int Nivel,
+        DateTime FechaCreacion,
+        string? Gremio,
+        JsonDocument? Rasgos,
+        [Required] string? Deidad,
+        int PuntosSanacion
+    );
 }

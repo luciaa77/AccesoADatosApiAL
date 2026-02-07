@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json;
 
-namespace AccesoDatosApiAI.Models
+namespace AccesoDatosApiAL.Models
 {
     [Table("Personajes")]
     public abstract class Personaje

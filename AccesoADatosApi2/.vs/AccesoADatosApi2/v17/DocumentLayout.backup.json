@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:models\\guerrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:models\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:models\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|c:\\users\\andr\u00E9s\\desktop\\accesoadatosapial\\accesoadatosapi2\\models\\arquero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9AC8B9-D182-451E-A351-D095ECBEE79C}|AccesoADatosApi2.csproj|solutionrelative:models\\arquero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwDUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:59:27.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:59:01.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Data\\GameDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\GameDbContext.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Data\\GameDbContext.cs",
+              "RelativeToolTip": "Data\\GameDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:56:45.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Personaje.cs",
+              "RelativeDocumentMoniker": "Models\\Personaje.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Personaje.cs",
+              "RelativeToolTip": "Models\\Personaje.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:55:10.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mago.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Mago.cs",
+              "RelativeDocumentMoniker": "Models\\Mago.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Mago.cs",
+              "RelativeToolTip": "Models\\Mago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:55:10.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Guerrero.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Guerrero.cs",
+              "RelativeDocumentMoniker": "Models\\Guerrero.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Guerrero.cs",
+              "RelativeToolTip": "Models\\Guerrero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:55:10.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clerigo.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Clerigo.cs",
+              "RelativeDocumentMoniker": "Models\\Clerigo.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Clerigo.cs",
+              "RelativeToolTip": "Models\\Clerigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:55:10.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Arquero.cs",
+              "DocumentMoniker": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Arquero.cs",
+              "RelativeDocumentMoniker": "Models\\Arquero.cs",
+              "ToolTip": "C:\\Users\\ANDR\u00C9S\\Desktop\\AccesoADatosApiAL\\AccesoADatosApi2\\Models\\Arquero.cs",
+              "RelativeToolTip": "Models\\Arquero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:55:04.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

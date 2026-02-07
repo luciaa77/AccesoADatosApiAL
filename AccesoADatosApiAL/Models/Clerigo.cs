@@ -1,7 +1,7 @@
 ﻿// Autor: Lucia
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AccesoDatosApiAI.Models
+namespace AccesoDatosApiAL.Models
 {
     [Table("Clerigos")]
     public class Clerigo : Personaje
