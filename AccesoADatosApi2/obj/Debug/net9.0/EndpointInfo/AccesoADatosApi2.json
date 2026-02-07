@@ -10,16 +10,10 @@
         "tags": [
           "AccesoADatosApi2"
         ],
+        "operationId": "Health",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -29,6 +23,381 @@
         "tags": [
           "AccesoADatosApi2"
         ],
+        "operationId": "GetAllPersonajes",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/personajes/{id}": {
+      "get": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "GetPersonajeById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "DeletePersonaje",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/personajes/guerreros": {
+      "post": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "CreateGuerrero",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Guerrero"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Guerrero"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/personajes/magos": {
+      "post": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "CreateMago",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mago"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mago"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/personajes/arqueros": {
+      "post": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "CreateArquero",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Arquero"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Arquero"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/personajes/clerigos": {
+      "post": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "CreateClerigo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clerigo"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Clerigo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/personajes/guerreros/{id}": {
+      "put": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "UpdateGuerrero",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Guerrero"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Guerrero"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/personajes/magos/{id}": {
+      "put": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "UpdateMago",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mago"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mago"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/personajes/arqueros/{id}": {
+      "put": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "UpdateArquero",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Arquero"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Arquero"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/personajes/clerigos/{id}": {
+      "put": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "UpdateClerigo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clerigo"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Clerigo"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/consultas/con-miedo": {
+      "get": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "ConsultaConMiedo",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/consultas/resumen-por-tipo": {
+      "get": {
+        "tags": [
+          "AccesoADatosApi2"
+        ],
+        "operationId": "ResumenPorTipo",
         "responses": {
           "200": {
             "description": "OK"
@@ -37,7 +406,184 @@
       }
     }
   },
-  "components": { },
+  "components": {
+    "schemas": {
+      "Arquero": {
+        "required": [
+          "fechaCreacion",
+          "nombre",
+          "rasgos"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivel": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaCreacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gremio": {
+            "type": "string",
+            "nullable": true
+          },
+          "rasgos": { },
+          "precision": {
+            "type": "number",
+            "format": "double"
+          },
+          "tieneMascota": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Clerigo": {
+        "required": [
+          "deidad",
+          "fechaCreacion",
+          "nombre",
+          "rasgos"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivel": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaCreacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gremio": {
+            "type": "string",
+            "nullable": true
+          },
+          "rasgos": { },
+          "deidad": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "puntosSanacion": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Guerrero": {
+        "required": [
+          "armaPrincipal",
+          "fechaCreacion",
+          "nombre",
+          "rasgos"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivel": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaCreacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gremio": {
+            "type": "string",
+            "nullable": true
+          },
+          "rasgos": { },
+          "armaPrincipal": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "furia": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Mago": {
+        "required": [
+          "elementoPrincipal",
+          "fechaCreacion",
+          "nombre",
+          "rasgos"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivel": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaCreacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gremio": {
+            "type": "string",
+            "nullable": true
+          },
+          "rasgos": { },
+          "mana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "elementoPrincipal": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
   "tags": [
     {
       "name": "AccesoADatosApi2"

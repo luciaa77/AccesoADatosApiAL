@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b3fed5c2-63d9-403a-9b60-56a222d26f74")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccesoADatosApi2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e8a3e2deb14870650d170e8a867e499c791c931")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25391926c6abad55ec84265d43ca0ea1090be51")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccesoADatosApi2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccesoADatosApi2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
